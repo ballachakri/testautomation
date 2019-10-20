@@ -3,10 +3,13 @@ package demo.testautomation.com.pageobjects;
 import demo.testautomation.com.globalutils.BaseUIPageObject;
 import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
 import java.util.List;
@@ -44,6 +47,8 @@ public class TruNarrativeHomePage extends BaseUIPageObject<TruNarrativeHomePage>
 
     @Step("Clicking on the leadership team sub menu")
     public TruNarrativeHomePage clickLeaderShipMenu() {
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(moreMenu));
         new Actions(driver).moveToElement(moreMenu).click().build().perform();
         leaderShipTeamSubMenu.click();
         return this;

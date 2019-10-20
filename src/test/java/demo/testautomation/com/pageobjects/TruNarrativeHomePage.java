@@ -47,8 +47,6 @@ public class TruNarrativeHomePage extends BaseUIPageObject<TruNarrativeHomePage>
 
     @Step("Clicking on the leadership team sub menu")
     public TruNarrativeHomePage clickLeaderShipMenu() {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(moreMenu));
         new Actions(driver).moveToElement(moreMenu).click().build().perform();
         leaderShipTeamSubMenu.click();
         return this;

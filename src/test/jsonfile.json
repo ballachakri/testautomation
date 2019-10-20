@@ -1,0 +1,475 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-20T16:45:13.529Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17998208400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.navigateToHomePage()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Should be able to navigate to TruNarratibe website",
+        "description": "",
+        "id": "ta-102-user-shoud-be-able-to-navigate-to-trunarrative-website;should-be-able-to-navigate-to-trunarratibe-website",
+        "after": [
+          {
+            "result": {
+              "duration": 2958793300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeTheBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4203964100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on the google home page",
+            "match": {
+              "location": "ShouldBeaAbleToNavigateStepDefs.i_am_on_the_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7851339500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search for a product \"TruNarrative\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TruNarrative\"",
+                  "offset": 23
+                }
+              ],
+              "location": "ShouldBeaAbleToNavigateStepDefs.i_search_for_a_product(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3082214700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to view TrurNarrative as result and url points to the website",
+            "match": {
+              "location": "ShouldBeaAbleToNavigateStepDefs.i_should_be_able_to_view_TrurNarrative_as_result_and_url_points_to_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22433394400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the first results link of result",
+            "match": {
+              "location": "ShouldBeaAbleToNavigateStepDefs.i_click_on_the_first_results_link_of_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384776200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to navigate to the TruNarrative Website",
+            "match": {
+              "location": "ShouldBeaAbleToNavigateStepDefs.i_should_be_able_to_navigate_to_the_TruNarrative_Website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TA-102 User shoud be able to Navigate to TruNarrative Website",
+    "description": "As a end user\nI will search for TruNarrative on google website\nThen I should be able to view all the macting results\nAnd I will click on the first link\nThen I should be redirected to TruNarrative website",
+    "id": "ta-102-user-shoud-be-able-to-navigate-to-trunarrative-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/demo/testautomation/com/resources/ShouldBeAbleToNavigate.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-20T16:46:12.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12377440500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.navigateToHomePage()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search for TruNarrative in the google website",
+        "description": "",
+        "id": "ta-101---user-should-be-able-to-search-for-trunarrative-on-google-website;search-for-trunarrative-in-the-google-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1593763700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeTheBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5587296100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "As a end user",
+            "match": {
+              "location": "ShouldBeAbleToSearchStepDefs.as_a_end_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7856000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search for word \"TruNarrative\" on google website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TruNarrative\"",
+                  "offset": 18
+                }
+              ],
+              "location": "ShouldBeAbleToSearchStepDefs.i_search_for_word_on_google_website(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3700731000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to view all the relevant matching results",
+            "match": {
+              "location": "ShouldBeAbleToSearchStepDefs.i_should_be_able_to_view_all_the_relevant_matching_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TA-101 - User should be able to search for TruNarrative on google website",
+    "description": "As a end user\nI will search for TruNarrative on the google website\nThen I should be able to view all relevant matching results",
+    "id": "ta-101---user-should-be-able-to-search-for-trunarrative-on-google-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/demo/testautomation/com/resources/ShouldBeAbleToSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-20T16:46:43.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13187644000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.navigateToHomePage()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "A scenario",
+        "description": "",
+        "id": "ta-103-should-be-able-view-to-the-leadership-team-and-their-role;a-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 752547000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeTheBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 977561600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the google website",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_am_on_the_google_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2284686800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search for the word \"\u003cTruNarrative\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cTruNarrative\u003e\"",
+                  "offset": 22
+                }
+              ],
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_search_for_the_word(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 819470800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to view all results",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_should_be_able_to_view_all_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10030350000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I will click the first url link of the results",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_will_click_the_first_url_link_of_the_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45185300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will be landing on TruNarrative website",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_will_be_landing_on_TruNarrative_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5083087300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will navigate to the Leadership team",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_will_navigate_to_the_Leadership_team()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194057800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to view all the leadership team and their roles",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamStepDefs.i_should_be_able_to_view_all_the_leadership_team_and_their_roles()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TA-103 Should be able view to the leadership team and their role",
+    "description": " As a end user\n I will search for TruNarrative on google website\n then is should be able view all the matching results\n and i will click the firs link of the results\n then i will landing on TruNarrative website\n and i will navigate to Leadership team\n then i should be able to view all leadership team",
+    "id": "ta-103-should-be-able-view-to-the-leadership-team-and-their-role",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/demo/testautomation/com/resources/ShouldBeAbleToViewLeaderShipTeam.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 989235800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a end user I am on the google homepage.",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.as_a_end_user_I_am_on_the_google_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-20T16:47:19.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9425870600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.navigateToHomePage()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Should be able search for TruNarrative",
+        "description": "",
+        "id": "ta-501-should-be-able-to-view-trunarrative-leadership-team;should-be-able-search-for-trunarrative",
+        "after": [
+          {
+            "result": {
+              "duration": 724605600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeTheBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2328958800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a  word \"TruNarrative\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TruNarrative\"",
+                  "offset": 21
+                }
+              ],
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_search_for_a_word(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 552821300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to view TrurNarrative and url points to the website",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_should_be_able_to_view_TrurNarrative_and_url_points_to_the_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7930282400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the first results link",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_click_on_the_first_results_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44294600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to land on the TruNarrative homepage",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_should_be_able_to_land_on_the_TruNarrative_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5821427200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Navigate to the TruNarrative Team page",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_Navigate_to_the_TruNarrative_Team_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2129786200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able view all the Leadership team and their respective roles",
+            "match": {
+              "location": "ShouldBeAbleToViewLeaderShipTeamAtTruNarrativeStepDefs.i_should_be_able_view_all_the_Leadership_team_and_their_respective_roles()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TA-501 Should be able to view TruNarrative leadership team",
+    "description": "",
+    "id": "ta-501-should-be-able-to-view-trunarrative-leadership-team",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/demo/testautomation/com/resources/ShouldBeAbleToViewLeaderShipTeamAtTruNarrative.feature",
+    "tags": []
+  }
+]

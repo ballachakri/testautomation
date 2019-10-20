@@ -1,0 +1,8 @@
+*.git
+*.class
+*.log
+*.json
+*.png
+target/
+reports/
+screenshots/

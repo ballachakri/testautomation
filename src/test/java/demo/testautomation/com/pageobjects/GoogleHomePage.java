@@ -29,6 +29,10 @@ public class GoogleHomePage extends BaseUIPageObject<GoogleHomePage> {
     @FindBy(css = "div[id='rso'] a")
     private List<WebElement> allResults;
 
+    public GoogleHomePage() {
+        PageFactory.initElements(driver, this);
+    }
+
     @Step("Set up the Google Home Page")
     public void openGoogleHomePage() {
         driver.get(TEST_ENV);

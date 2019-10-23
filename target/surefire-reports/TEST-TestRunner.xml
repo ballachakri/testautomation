@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner" time="198.218" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner" time="194.318" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,10 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Should be able to navigate to TruNarratibe website" classname="TA-102 User shoud be able to Navigate to TruNarrative Website" time="43.526"/>
-  <testcase name="Search for TruNarrative in the google website" classname="TA-101 - User should be able to search for TruNarrative on google website" time="17.14"/>
-  <testcase name="A scenario" classname="TA-103 Should be able view to the leadership team and their role" time="42.642"/>
-  <testcase name="Should be able search for TruNarrative" classname="TA-501 Should be able to view TruNarrative leadership team" time="30.828"/>
-  <testcase name="Should be able to redirected to TruNarratibe website" classname="TA-501 Should be able to view TruNarrative leadership team" time="26.775"/>
-  <testcase name="Should be able view leadership team" classname="TA-501 Should be able to view TruNarrative leadership team" time="36.053"/>
+  <testcase name="Verify that TruNarrative is the first search result returned and that it points to trunarrative website" classname="Verify that TruNarrative is the first search result returned and that it points to TrNarrative website" time="36.68"/>
+  <testcase name="Verify that the TruNarrative leadership team consists of 9 people and that the people name matches with their respective role" classname="Verify that the TruNarrative leadership team consists of nine people and that the people name matches with their respective role." time="93.314"/>
+  <testcase name="Verify that the strap line “Easy Onboarding. Smooth Transactions. Insightful Compliance.” Is found on the page" classname="Verify that the strap line “Easy Onboarding. Smooth Transactions. Insightful Compliance.&quot; Is found on the page." time="61.844"/>
 </testsuite>

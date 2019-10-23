@@ -4,23 +4,26 @@ package demo.testautomation.com.globalutils;
 import cucumber.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+
 
 /**
  * The Hooks class will choose the Test Environment and executes before and after Tests
  */
 public class Hooks extends BaseUIPageObject<Hooks> {
     /**
-     * set up the browser type and amended the Log4j framework for logging information
+     * set up the browser type and configured Log4j framework for logging information
      */
-    final static Logger logger = LoggerFactory.getLogger(Hooks.class);
+    final static Logger logger = Logger.getLogger(Hooks.class);
 
-    /**
-     * setting choose browser
-     */
     @Before
-    public void navigateToHomePage() {
+    public void navigateToHomePage()
+    {
+        BasicConfigurator.configure();
+        PropertyConfigurator.configure("log4j.properties");
         setUpTheBrowser();
         maximizeBrowser();
         logger.info("Launched the Browser ...........!");

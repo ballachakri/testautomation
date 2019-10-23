@@ -11,9 +11,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 /**
- * Asserting that TruNarrative is the search results match returned as first in google search and the url points to: https://trunarrative.com/
+ * Verify that TruNarrative is the first search result returned and that it points to: https://trunarrative.com/
  */
-public class ShouldBeAbleToSearchStepDefs {
+public class VerifyThatTruNarrtiveIsTheFirstInSearchResultsStepDefs {
 
     private GoogleHomePage googleHomePage;
 

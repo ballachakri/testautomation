@@ -17,9 +17,9 @@ import org.hamcrest.collection.IsMapContaining;
 import java.util.Map;
 
 /**
- * Asserting that the TruNarrative leadership team consists of 9 people and the people names with their respective roles:
+ * Verify that the TruNarrative leadership team consists of 9 people and that the people name matched with their respective role.
  */
-public class ShouldBeAbleToViewLeaderShipTeamStepDefs{
+public class VerifyThatTheTrueNarrativeShipConsists9PeopleAndTheirNameAndRolesMatchStepDefs {
 
  private GoogleHomePage googleHomePage;
  private TruNarrativeHomePage truNarrativeHomePage;

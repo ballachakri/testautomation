@@ -1,6 +1,4 @@
-# Scenario is to view all the leadership team
-
-Feature: TA-103 Should be able view to the leadership team and their role
+Feature: Verify that the TruNarrative leadership team consists of 9 people and that the people name matches with their respective role
 
  As a end user
  I will search for TruNarrative on google website
@@ -10,9 +8,9 @@ Feature: TA-103 Should be able view to the leadership team and their role
  and i will navigate to Leadership team
  then i should be able to view all leadership team
 
-Scenario: A scenario
+Scenario: Verify that the TruNarrative leadership team consists of 9 people and that the people name matches with their respective role
     Given I am on the google website
-    When I search for the word "<TruNarrative>"
+    When I search for the word "TruNarrative"
     Then I should be able to view all results
     Then I will click the first url link of the results
     And I will be landing on TruNarrative website

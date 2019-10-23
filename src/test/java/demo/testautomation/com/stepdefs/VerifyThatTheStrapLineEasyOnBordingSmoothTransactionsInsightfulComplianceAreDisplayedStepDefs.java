@@ -11,9 +11,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 /**
- * Asserting that the strap line “Easy Onboarding. Smooth Transactions. Insightful Compliance.”  as appears TruNarrative home page.
+ * Verify that the strap line “Easy Onboarding. Smooth Transactions. Insightful Compliance.” Is found on the page.
  */
-public class ShouldBeaAbleToNavigateStepDefs {
+public class VerifyThatTheStrapLineEasyOnBordingSmoothTransactionsInsightfulComplianceAreDisplayedStepDefs {
 
     private GoogleHomePage googleHomePage;
 

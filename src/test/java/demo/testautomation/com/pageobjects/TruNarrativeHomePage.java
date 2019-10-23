@@ -40,6 +40,10 @@ public class TruNarrativeHomePage extends BaseUIPageObject<TruNarrativeHomePage>
     @FindBy(css = "p[class='sub']")
     private List<WebElement> leaderShipTeamRole;
 
+    public TruNarrativeHomePage() {
+        PageFactory.initElements(driver, this);
+    }
+
     @Step("Returning the text of the strap it from the home page")
     public String getStrapIDTitle() {
         return strapidTitle.getText();
